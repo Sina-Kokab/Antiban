@@ -48,7 +48,7 @@ def RandomWaits(min, max):
         totalprobability += probabilitydensityfunction
 
         if (len(list) == (max - min + 1)):
-            probabilitycoefficient = 1/totalprobability #Calcuates a multiplier for the probabilities calculated; they don't add up to 1.
+            probabilitycoefficient = 1/totalprobability #Calculates a multiplier for the probabilities calculated; they don't add up to 1?
             print("Probability Coefficient " + str(probabilitycoefficient))
 
             i = 0
