@@ -61,8 +61,8 @@ def RandomWaits(min, max):
                 i += 1
 
 
-    print("Total Adjusted Probability = " + str(totalprobabilityadjusted))
+    #print("Total Adjusted Probability = " + str(totalprobabilityadjusted))
 
-    print(weightpercentages)
+    #print(weightpercentages)
 
     return (select(waittimes, weightpercentages))
